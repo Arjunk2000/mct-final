@@ -7,6 +7,14 @@ button{
     cursor: pointer;
 }
 
+#lang{
+    padding: 15px;
+    background-color: rgb(217, 205, 205);
+    color: #000000;
+    border-radius: 50px;
+    
+}
+
 * 
 {
     margin: 0;
@@ -52,12 +60,17 @@ input
 } 
 
 h1{
+    font-weight: 900;
     text-align: center;
-    padding-top: 80px;
-    font-size: 70px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   color: rgb(2, 10, 4);
-   
+    padding-top: 10px;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif; 
+   color: rgb(111, 19, 147);
+   letter-spacing: 10px;
+   background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTztKPCtgTzYFkmt-XVMjU2Ui195ExcREA4Pw&usqp=CAU') 50% 50%;
+   background-size: cover;
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
     
 }
 .container 
