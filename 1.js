@@ -1,8 +1,7 @@
-const apikey="563492ad6f917000010000019b983f3b62fe43daa92e746d4553dd35"; 
 const input=document.querySelector("input");
 const search_btn=document.querySelector(".search_btn");
 const showmore_btn=document.querySelector(".showmore");
-
+const apikey="563492ad6f917000010000019b983f3b62fe43daa92e746d4553dd35"; 
 let page_num=1;
 let search_text="";
 let search=false;
@@ -29,7 +28,7 @@ function cleargallery(){
 }
 
 async function CuratedPhotos(page_num){
-    // fetch the data from api
+    
     const data=await fetch(`https://api.pexels.com/v1/curated?page=${page_num}`, 
     {
         method: "GET",
