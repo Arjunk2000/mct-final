@@ -1,0 +1,67 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+ h1{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(2, 10, 4);
+   
+    
+}
+.container 
+{
+    height: 300px;
+    box-shadow: 0 10px 40px -10px rgb(0 64 128 / 10%);
+    background-color: aqua;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/205/249/242/beige-and-brown-fox-sitting-on-log-near-tree-vixen-vixen-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: local;
+    
+}
+input 
+{
+    padding: 10px;
+    border: 1px solid rgb(88, 73, 73);
+    border-radius: 50px;
+    background: #f6f7f7;
+    width: 45%;
+    font-size: 25px;
+    margin-left: 25%;
+    color: #9119a7;
+
+}
+
+.display_images{
+    width: 1000px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap:30px;
+}
+.display_images img 
+{
+    width: 90%;
+    border-radius: 5px;
+    height: 240px;
+    cursor: pointer;
+}
+
+button{
+    background-color: #3015b4;
+    color: white;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+}
+.showmore{
+    margin: 0 auto;
+  display: block;
+} 
